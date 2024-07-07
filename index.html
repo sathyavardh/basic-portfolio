@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Typing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="sk.jpeg" alt="logo" width="30px" height="30px">
+        </div>
+
+        <a href="#" class="btn">
+            <!-- Hamburger menu -->
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="mailto:ksathyavardhanec@gmail.com">Contact</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="intro">
+        <img src="profile.png" alt="myimg" width="500" height="500"id="img4">
+        <div class="item"><h1>Hello,</h1></div>
+        <div class="item"><h2>I'm <span>Sathyavardhan K</span></h2></div>
+        
+    </div>
+    <div class="container">
+        <h1>And I'm <span class="auto-type"></span></h1>
+    </div>
+
+    <div class="main">
+        <div class="about">
+            <h3>About Me</h3>
+            <p>I graduated from Kongu Engineering College with a bachelor's degree in electronics and communication engineering. 
+                I worked on a number of projects in the fields of web development, machine learning, embedded systems, 
+                image processing, and the Internet of Things when I was in college. My current area of interest is full-stack 
+                programming, and I'm always picking up new front-end and back-end development frameworks. As a data fanatic, 
+                I'm constantly excited to investigate and evaluate data in order to spur creativity and new ideas. I've been able to 
+                advance my career at GWC Data.ai Company, where I currently work. My objective is to land a solid job in a reputable 
+                company merging full-stack development and IoT, where I may advance my professional development.</p>
+        </div>
+            
+        
+        <div class="skills">
+            <h3>Skills</h3>
+            <img src="java.svg" alt="logo" width="80px" height="80px" id="img1">
+            <img src="react.svg" alt="logo"width="80px" height="80px" id="img2">
+            <ul class="sets">
+                <li>Java</li>
+                <li>HTML & CSS</li>
+                <li>JS</li>
+                <li>React JS</li>
+                <li>Embedded IOT</li>
+                <li>Python</li>
+            </ul>
+        </div>
+
+
+        <div class="project">
+            <h3>Projects</h3>
+            <img src="iot.png" alt="logo" width="70px" height="70px" id="img3">
+            <ul class="type">
+                <li>Smart Car Parking System</li>
+                <li>File Sharing Using Jarvis</li>
+                <li>IOT Based Health Monitoring System</li>
+                <li>Integration of Cryptography and Steganography Using Matlab for Secure Communication</li>
+                <li>Fraud Detection in Financial Transaction Using ML</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>@ 2024 Sathyavardhan. All Rights Reserved</p>
+        <div class="bottomelements">
+            <a href="mailto:ksathyavardhanec@gmail.com" target="_blank"><img src="email.png" alt="email" width="40px" height="40px" id="mail"></a>
+    
+            <a href="https://www.linkedin.com/in/sathyavardhan-k/" target="_blank"><img src="linkedin.png" alt="linkedin" width="40px" height="40px" id="in"></a>
+      
+      <a href="https://github.com/sathyavardh" target="_blank"><img src="github.png" alt="github" width="40px" height="40px" id="git"></a>
+        </div>
+        
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            // strings: ['Coding','Sleeping','Eating'],
+            strings: ['Full-Stack Dev','Application Dev','IOT Dev'],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
